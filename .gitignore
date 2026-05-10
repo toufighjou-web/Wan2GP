@@ -46,3 +46,8 @@ loras_i2v/
 wgp_config.json
 plugins_local.json
 loras_url_cache.json
+
+# Higgsfield-generated stills (local only). Curated refs in assets/reference_ads/ stay tracked.
+assets/higgsfield_generations/
+!assets/higgsfield_generations/.gitkeep
+# outputs/ is already ignored above, which covers outputs/wan2gp_videos/
